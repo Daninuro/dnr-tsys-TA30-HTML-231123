@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    margin: 0px;
+}
+
+header{
+    height: 30px;
+}
+
+.menu{
+    padding: 20px;
+    font-size: small;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.menuRight {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 20px;
+    height: 100%;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.body{
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(9, auto);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+}
+
+img{
+    height: 200px;
+    width: 350px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#logo{
+    height: 60px;
+    width: 90px;
+    padding-left: 20px;
+}
+
+.divHeader{
+    display: flex;
+    width: 100%;
+}
+
+#documentales, #vista, #series{
+    grid-column: span 5;
+    font-size: larger;
+    margin-bottom: 1px;
+    padding-top: -10px;
+}
